@@ -14,23 +14,26 @@
     <title>TheNewWeek</title>
 </head>
 
-<body>
-    <header class="container">
+<body class="container-xl">
+    <header class="white-color">
         <div class="w-100 header__container d-flex justify-content-between align-items-center">
             <div class="header__container-logo">
                 <img src="./images/logo.png" alt="logo">
             </div>
-            <div class="d-flex flex-column">
-                <span class="mx-4 header__container-weather font-weight-bold mb-2"><i class="fas fa-cloud"></i> 20
-                    Lahore, PK ></span>
-                <span class="mx-4 header__container-weather">Tuesday, Dec 8, 2020</span>
+            <div class="header__container-hide--md">
+                <div class="d-flex flex-column">
+                    <span class="mx-4 header__container-weather font-weight-bold mb-2"><i class="fas fa-cloud"></i> 20
+                        Lahore, PK ></span>
+                    <span class="mx-4 header__container-weather">Tuesday, Dec 8, 2020</span>
+                </div>
             </div>
-            <div class="text-uppercase">
-                <a class="text-decoration-none header__container-weather font-weight-bold" href="#">login</a>
+            <div class="text-uppercase d-flex justify-content-between align-items-center">
+                <a class="mx-2 text-decoration-none header__container-weather font-weight-bold" href="#">login</a>
                 <button class="mx-4 custom-hb">SUBSCRIBE</button>
+                <i class="header__container-bars fas fa-bars mx-2"></i>
             </div>
         </div>
-        <nav class="header__container-navbar mt-3">
+        <nav class="header__container-navbar mt-3 header__container-hide--md white-color">
             <ul class="header__container-list">
                 <li><a href="#">U.S.</a></li>
                 <li><a href="#">World</a></li>
@@ -45,13 +48,14 @@
                 <li><a href="#">Weather</a></li>
             </ul>
             <form class="header__container-navbar--form">
-                <input type="text" class="form-control mx-5 px-3 py-3 border-none" placeholder="Search">
-                <button class="btn shadow-none"><i class="header__container-search--icon fas fa-search"></i></button>
+                <input type="text" class="form-control px-3 py-3 border-none" placeholder="Search">
+                <button class="btn shadow-none form-control"><i
+                        class="header__container-search--icon fas fa-search"></i></button>
             </form>
         </nav>
-        <hr class="hr-devider">
+        <hr class="hr-devider header__container-hide--md">
     </header>
-    <div class="container">
+    <div class="header__container-hide--md white-color">
         <div class="page__links">
             <ul class="page__links-list d-flex justify-content-start align-items-center">
                 <li><a href="#">TRENDING</a></li>
@@ -64,7 +68,162 @@
         </div>
         <hr class="hr-devider">
     </div>
-    
+    <main>
+        <div class="hr-devider2"></div>
+        <div class="white-color">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 card__container mt-4">
+                    <h2 class="card__container-head mb-3">FEATURED STORIES</h2>
+                    <div class="card border-0 mb-4">
+                        <div class="card-img-top card__container-group">
+                            <img class="card__container-img" src="./images/iran.webp" alt="iran">
+                            <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                <span>WORLD</span></div>
+                        </div>
+                        <p class="card-title card__container-title mt-2"><a href="#">Trump's Final Weeks Bring Risk of
+                                Iran War Amid Assassinations, Sanctions</a></p>
+                        <p class="card-text card__container-text">The recent assassination of top nuclear scientist
+                            Mohsen Fakhrizdeh threatens to plunge U.S.-Iranian ties into deeper chaos before
+                            President-Elect Joe Biden can attempt to thaw relations.</p>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-img-top card__container-group">
+                            <img class="card__container-img" src="./images/congress.webp" alt="iran">
+                            <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                <span>POLITICS</span></div>
+                        </div>
+                        <p class="card-title card__container-title mt-2"><a href="#">Texas Files Lawsuit With SCOTUS Challenging Election in 4 Swing States</a></p>
+                        <p class="card-text card__container-text">The suit says Georgia, Pennsylvania, Michigan and Wisconsin will determine the election and asks the Supreme Court to delay states appointing their electors.</p>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-img-top card__container-group">
+                            <img class="card__container-img" src="./images/vaccine.webp" alt="iran">
+                            <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                <span>U.S.</span></div>
+                        </div>
+                        <p class="card-title card__container-title mt-2"><a href="#">U.S. Rejected Offers to Buy More Pfizer COVID Vaccine Shots—ex-FDA Chief</a></p>
+                        <p class="card-text card__container-text">The company has entered into agreements to supply other countries since it reported promising results for its vaccine contender, Scott Gottlieb, the head of the Food and Drug Administration (FDA) said.</p>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-img-top card__container-group">
+                            <img class="card__container-img" src="./images/biden-sm.webp" alt="iran">
+                            <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                <span>POLITICS</span></div>
+                        </div>
+                        <p class="card-title card__container-title mt-2"><a href="#">Joe Biden's Billion-Dollar Campaign Spent $13 for Every Vote</a></p>
+                        <p class="card-text card__container-text">The Democrat's presidential campaign became the first in U.S. to raise one billion dollars from donors.</p>
+                    </div>
+                    <div class="card border-0 mb-4">
+                        <div class="card-img-top card__container-group">
+                            <img class="card__container-img" src="./images/us-army.jpg" alt="iran">
+                            <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                <span>U.S</span></div>
+                        </div>
+                        <p class="card-title card__container-title mt-2"><a href="#">Biden Defense Pick Austin May Face Opposition Over Record on ISIS</a></p>
+                        <p class="card-text card__container-text">Austin is accused of telling President Barack Obama that ISIS was merely a "flash in the pan."</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-5 col-md-6 mt-4">
+                    <h2 class="card__container-head mb-3">TOP STORY</h2>
+                    <div class="card border-0">
+                        <div class="card-img-top card__container-group">
+                            <img class="card__container-img2" src="./images/biden.webp" alt="biden">
+                            <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                <span>POLITICS</span></div>
+                        </div>
+                        <p class="card-title card__container-title card__container-title2 mt-2"><a href="#">Joe Biden's Billion-Dollar Campaign Spent $13 for Every Vote</a></p>
+                        <p class="card-text card__container-text card__container-text2">The Democrat's presidential campaign became the first in U.S. to raise one billion dollars from donors.</p>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-lg-4 mt-4">
+                    <h2 class="card__container-head mb-3 mx-4">THE DEBATE</h2>
+                    <div class="debate">
+                        <div class="debate__container">
+                            <div class="debate__container-1 d-flex justify-content-start align-items-center my-3">
+                                <img class="debate__container-img" src="./images/person-1.webp" alt="person">
+                                <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                                    <a class="debate__container-link" href="#">Should Trump Concede? Yes</a>
+                                    <a class="debate__container-name" href="#">By Jonathan Tobin</a>
+                                </div>
+                            </div>
+                            <div class="debate__container-hr"></div>
+                            <div class="debate__container-1 d-flex justify-content-between align-items-center my-3">
+                                <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                                    <a class="debate__container-link" href="#">Should Trump Concede? Not Yet</a>
+                                    <a class="debate__container-name" href="#">By Spencer Klavan</a>
+                                </div>
+                                <img class="debate__container-img" src="./images/person-2.png" alt="person">
+                            </div>
+                        </div>
+                        <div class="debate-circle"><p class="debate-circle--vs">VS</p></div>
+                    </div>
+                    <h2 class="card__container-head my-4 mx-4">OPINION</h2>
+                    <div class="debate__container-1 d-flex justify-content-start align-items-center my-3 mx-4">
+                        <img class="debate__container-img" src="./images/Person-3.png" alt="person">
+                        <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                            <a class="debate__container-link" href="#">Progressives Are Wrong To Oppose the Electoral College</a>
+                            <a class="debate__container-name" href="#">By John Yoo</a>
+                        </div>
+                    </div>
+                    <hr class="hr-devider header__container-hide--md mx-4">
+                    <div class="debate__container-1 d-flex justify-content-start align-items-center my-3 mx-4">
+                        <img class="debate__container-img" src="./images/person-2.png" alt="person">
+                        <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                            <a class="debate__container-link" href="#">Despite Predictions, Shelby v. Holder Did Not Lead to Voter Suppression</a>
+                            <a class="debate__container-name" href="#">By Hans von Spakovsky</a>
+                        </div>
+                    </div>
+                    <hr class="hr-devider header__container-hide--md mx-4">
+                    <div class="debate__container-1 d-flex justify-content-start align-items-center my-3 mx-4">
+                        <img class="debate__container-img" src="./images/person-1.webp" alt="person">
+                        <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                            <a class="debate__container-link" href="#">Eco-Failure Jay Inslee is a Smart Political Ploy for Biden</a>
+                            <a class="debate__container-name" href="#">By Jason Rantz</a>
+                        </div>
+                    </div>
+                    <hr class="hr-devider header__container-hide--md mx-4">
+                    <div class="debate__container-1 d-flex justify-content-start align-items-center my-3 mx-4">
+                        <img class="debate__container-img" src="./images/Person-3.png" alt="person">
+                        <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                            <a class="debate__container-link" href="#">No Deal Until Qatar Stops Financing Terrorism</a>
+                            <a class="debate__container-name" href="#">By Jordan Cope</a>
+                        </div>
+                    </div>
+                    <hr class="hr-devider header__container-hide--md mx-4">
+                    <div class="debate__container-1 d-flex justify-content-start align-items-center my-3 mx-4">
+                        <img class="debate__container-img" src="./images/person-2.png" alt="person">
+                        <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                            <a class="debate__container-link" href="#">How Promising is the Vaccine News if People Won't Take it?</a>
+                            <a class="debate__container-name" href="#">By Various</a>
+                        </div>
+                    </div>
+                    <hr class="hr-devider header__container-hide--md mx-4">
+                    <div class="debate__container-1 d-flex justify-content-start align-items-center my-3 mx-4">
+                        <img class="debate__container-img" src="./images/person-1.webp" alt="person">
+                        <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                            <a class="debate__container-link" href="#">Reports of Al-Qaeda's Demise are Greatly Exaggerated</a>
+                            <a class="debate__container-name" href="#">By Colin P. Clarke</a>
+                        </div>
+                    </div>
+                    <hr class="hr-devider header__container-hide--md mx-4">
+                    <div class="debate__container-1 d-flex justify-content-start align-items-center my-3 mx-4">
+                        <img class="debate__container-img" src="./images/Person-3.png" alt="person">
+                        <div class="debate__container-1--sub d-flex flex-column justify-content-center">
+                            <a class="debate__container-link" href="#">Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</a>
+                            <a class="debate__container-name" href="#">By Robert Reich</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

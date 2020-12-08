@@ -8,6 +8,7 @@
         list-style: none;
     
         li {
+            padding-top: 1rem;
             margin: 0 2.5rem;
             font-size: 1.8rem;
             font-weight: bold;
@@ -18,7 +19,7 @@
             }
     
             a:hover {
-                color: $color-black;
+                color: $header-red;
             }
         }
     }
