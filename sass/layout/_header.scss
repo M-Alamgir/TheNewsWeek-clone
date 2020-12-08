@@ -1,0 +1,67 @@
+// Header section
+
+.header__container {
+  position: relative;
+  background-color: $header-red;
+  height: 10rem;
+  font-size: 1.7rem;
+
+  &-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &-weather {
+    color: $color-white;
+  }
+
+  &-weather:hover {
+    color: $color-white;
+  }
+
+  &-search--icon {
+      font-size: 3rem;
+      color: $color-grey-light;
+  }
+
+  &-navbar {
+      display: flex;
+
+      &--form {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          input {
+              border: 1px solid $color-grey-lighter;
+          }
+      }
+  }
+
+  &-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      margin: 0.7rem 0;
+      padding: 0.1rem 1.5rem;
+      font-size: 1.8rem;
+      font-weight: bold;
+      border-right: 1px solid $color-grey-lighter;
+
+      a {
+        text-decoration: none;
+        color: $color-black;
+      }
+    }
+  }
+}
+
+.hr-devider {
+    border-top: 1px solid $color-grey-light;
+}

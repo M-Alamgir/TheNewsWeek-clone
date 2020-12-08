@@ -1,0 +1,25 @@
+// Page links
+
+.page__links {
+
+    border-bottom: 1rem solid $color-grey-lighter;
+
+    &-list {
+        list-style: none;
+    
+        li {
+            margin: 0 2.5rem;
+            font-size: 1.8rem;
+            font-weight: bold;
+    
+            a {
+                color: $color-grey;
+                text-decoration: none;
+            }
+    
+            a:hover {
+                color: $color-black;
+            }
+        }
+    }
+}
