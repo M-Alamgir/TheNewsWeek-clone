@@ -1,0 +1,16 @@
+.myTurn {
+
+    &__card {
+
+        &-img {
+           width: 88%;
+        }
+
+        &-title {
+            width: 88%;
+            font-size: 1.5rem;
+            color: $color-grey;
+            font-weight: 700;
+        }
+    }
+}

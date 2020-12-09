@@ -84,6 +84,11 @@ body {
   border-bottom: 1px solid #e7e7e7;
 }
 
+.hr-devider3 {
+  border-top: 1px solid #777;
+  margin: 1rem 0;
+}
+
 .container-xl {
   padding: 0;
 }
@@ -116,6 +121,52 @@ body {
     width: 17rem;
   }
 }
+.magazine {
+  padding: 0 3rem;
+  background-color: #fff;
+}
+.magazine__icon {
+  height: 2.8rem;
+  width: 2.9rem;
+  background-color: #f72210;
+}
+.magazine__text {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+  color: #333;
+  font-weight: 700;
+}
+.magazine__contain {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.magazine__catagory {
+  background-color: #f72210;
+  padding: 0.3rem 0.8rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.magazine__name {
+  color: #f72210;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.magazine__link {
+  margin-top: 0.7rem;
+  font-size: 1.8rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+.magazine__link:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
 .custom-hb {
   border: none;
   padding: 0.5rem 1rem;
@@ -198,6 +249,12 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
 }
+.card__container-catagory2 {
+  width: 16rem;
+}
+.card__container-catagory2 span {
+  color: #3581f4;
+}
 
 .debate {
   padding: 0 1.9rem;
@@ -255,6 +312,69 @@ body {
 
 .white-color {
   background-color: white;
+}
+
+.margin__3 {
+  margin: 5rem 2.2rem;
+}
+
+.padding__left {
+  padding-left: 1.8rem;
+}
+
+@media (max-width: 992px) {
+  .card__container {
+    padding-left: 2rem;
+  }
+
+  .padding__left {
+    padding-left: 0.55rem;
+  }
+
+  .padding__right {
+    padding-right: 2rem;
+  }
+
+  .margin__3 {
+    margin: 3rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .first__row {
+    padding-right: 2rem;
+  }
+
+  .middle__row {
+    padding-left: 2rem;
+  }
+}
+.myTurn__card-img {
+  width: 88%;
+}
+.myTurn__card-title {
+  width: 88%;
+  font-size: 1.5rem;
+  color: #777;
+  font-weight: 700;
+}
+
+.list__container-font {
+  margin-left: 1.8rem;
+}
+.list__container-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.list__container-title a {
+  color: #000;
+  text-decoration: none;
+}
+.list__container-title a:hover {
+  text-decoration: underline;
+}
+.list__container-text {
+  font-size: 1.4rem;
+  color: #333;
 }
 
 /*# sourceMappingURL=styles.css.map */

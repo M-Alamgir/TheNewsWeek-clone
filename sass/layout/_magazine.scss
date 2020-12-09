@@ -1,0 +1,55 @@
+.magazine {
+    padding: 0 3rem;
+    background-color: $color-white;
+
+    &__icon {
+        height: 2.8rem;
+        width: 2.9rem;
+        background-color: $header-red;
+    }
+
+    &__text {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-size: 2rem;
+        color: $color-grey-dark;
+        font-weight: 700;
+    }
+
+    &__contain {
+        width: 100%;
+        height: auto;
+        // background-image: url("../images/doctor.webp");
+        // background-size: cover;
+        // background-position: center;
+        margin-bottom: 1rem;
+    }
+
+    &__catagory {
+        background-color: $header-red;
+        padding: 0.3rem 0.8rem;
+        color: $color-white;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    &__name {
+        color: $header-red;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: 1rem;
+    }
+
+    &__link {
+        margin-top: 0.7rem;
+        font-size: 1.8rem;
+        color: $color-black;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    &__link:hover {
+        text-decoration: underline;
+        color: $color-black;
+    }
+}
