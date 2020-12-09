@@ -1,0 +1,19 @@
+.footer {
+    padding: 2rem;
+    background-color: $color-white;
+
+    &__logo {
+
+        &-icon {
+            width: 35%;
+        }
+    }
+
+    &__icons {
+        & > * {
+            font-size: 3rem;
+            margin-left: 1rem;
+            color: $color-grey;
+        }
+    }
+}

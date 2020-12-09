@@ -14,3 +14,20 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .pl-turn {
+        padding-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .take-out {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .pl-turn {
+        display: none;
+    }
+}
