@@ -3,6 +3,7 @@
     background-color: $color-white;
 
     &__logo {
+        position: relative;
 
         &-icon {
             width: 35%;
@@ -12,8 +13,37 @@
     &__icons {
         & > * {
             font-size: 3rem;
-            margin-left: 1rem;
             color: $color-grey;
+        }
+    }
+
+    &__copy {
+        position: absolute;
+        left: 15rem;
+        bottom: 0;
+    }
+
+    &__list2 {
+        --bs-gutter-x: 0;
+    }
+
+    &__list {
+        padding-left: 1rem;
+
+        li {
+            margin: 0 0.5rem;
+            font-size: 1.4rem;
+            color: $color-grey-dark;
+
+            & > * {
+                text-decoration: none;
+                font-size: inherit;
+                color: $color-grey;
+            }
+
+            & > *:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

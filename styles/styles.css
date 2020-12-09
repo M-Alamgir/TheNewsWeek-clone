@@ -52,6 +52,7 @@ body {
 }
 .header__container-navbar--form input {
   border: 1px solid #e7e7e7;
+  width: 5rem;
 }
 .header__container-list {
   display: flex;
@@ -93,8 +94,8 @@ body {
   padding: 0;
 }
 
-@media (max-width: 1080px) {
-  .header__container-search--icon {
+@media (max-width: 1024px) {
+  .header__container-btn {
     display: none;
   }
 }
@@ -218,12 +219,14 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
 }
-.subscribe__btn2 {
-  padding-left: 2rem;
-}
 .subscribe__title, .subscribe__text {
   width: 100%;
   padding: 0 1rem;
+}
+.subscribe__input {
+  width: 15rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .newsletter {
@@ -242,13 +245,39 @@ body {
   padding: 2rem;
   background-color: #fff;
 }
+.footer__logo {
+  position: relative;
+}
 .footer__logo-icon {
   width: 35%;
 }
 .footer__icons > * {
   font-size: 3rem;
-  margin-left: 1rem;
   color: #777;
+}
+.footer__copy {
+  position: absolute;
+  left: 15rem;
+  bottom: 0;
+}
+.footer__list2 {
+  --bs-gutter-x: 0;
+}
+.footer__list {
+  padding-left: 1rem;
+}
+.footer__list li {
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+.footer__list li > * {
+  text-decoration: none;
+  font-size: inherit;
+  color: #777;
+}
+.footer__list li > *:hover {
+  text-decoration: underline;
 }
 
 .custom-hb {
@@ -416,7 +445,7 @@ body {
   }
 
   .padding__right {
-    padding-right: 2rem;
+    padding-right: 1.3rem;
   }
 }
 @media (max-width: 768px) {
@@ -474,6 +503,10 @@ body {
 
 .row {
   margin-right: 0;
+}
+
+.row > * {
+  padding-right: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

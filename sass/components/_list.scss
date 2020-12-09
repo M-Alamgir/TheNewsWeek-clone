@@ -27,4 +27,9 @@
 
 .row {
     margin-right: 0;
+    
+}
+
+.row > * {
+    padding-right: 0;
 }

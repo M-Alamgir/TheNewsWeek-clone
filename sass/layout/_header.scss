@@ -41,6 +41,7 @@
 
       input {
         border: 1px solid $color-grey-lighter;
+        width: 5rem;
       }
     }
   }
@@ -89,10 +90,10 @@
 
 // Header media queries
 
-@media (max-width: 1080px){
+@media (max-width: 1024px){
   .header__container {
 
-    &-search--icon {
+    &-btn {
       display: none;
     }
   }
