@@ -219,7 +219,8 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
 }
-.subscribe__title, .subscribe__text {
+.subscribe__title,
+.subscribe__text {
   width: 100%;
   padding: 0 1rem;
 }
@@ -407,7 +408,8 @@ body {
   width: 6rem;
   margin-right: 2rem;
 }
-.debate__container-name, .debate__container-link {
+.debate__container-name,
+.debate__container-link {
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -419,7 +421,8 @@ body {
   color: #000;
   font-weight: 700;
 }
-.debate__container-name, .debate__container-name:hover {
+.debate__container-name,
+.debate__container-name:hover {
   color: #333;
 }
 
