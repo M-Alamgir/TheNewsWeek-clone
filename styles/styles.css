@@ -141,6 +141,7 @@ body {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
+  position: relative;
 }
 .magazine__catagory {
   background-color: #f72210;
@@ -149,6 +150,10 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+.magazine__catagory2 {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
 }
 .magazine__name {
   color: #f72210;
@@ -182,19 +187,10 @@ body {
   color: #f72210;
 }
 
-.featured {
-  background-color: #e7e7e7;
-  margin-top: 0.5rem;
-  width: 95.5%;
-  padding: 0.5rem 0;
-  color: #000;
-  font-size: 1.5rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.mb__bottom {
-  margin-bottom: 10rem;
+.img-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .custom-hb {
