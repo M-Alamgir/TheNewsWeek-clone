@@ -1,35 +1,32 @@
 .list__container {
+  &-font {
+    margin-left: 1.8rem;
+  }
 
-    &-font {
-        margin-left: 1.8rem;
-    }
-    
-    &-title {
-        font-size: 1.8rem;
-        font-weight: 700;
+  &-title {
+    font-size: 1.8rem;
+    font-weight: 700;
 
-        a {
-            color: $color-black;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
+    a {
+      color: $color-black;
+      text-decoration: none;
     }
 
-    &-text {
-        font-size: 1.4rem;
-        color: $color-grey-dark;
+    a:hover {
+      text-decoration: underline;
     }
+  }
 
+  &-text {
+    font-size: 1.4rem;
+    color: $color-grey-dark;
+  }
 }
 
 .row {
-    margin-right: 0;
-    
+  margin-right: 0;
 }
 
 .row > * {
-    padding-right: 0;
+  padding-right: 0;
 }

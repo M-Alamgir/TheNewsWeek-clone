@@ -22,38 +22,70 @@ body {
   height: 10rem;
   font-size: 1.7rem;
 }
+
 .header__container-logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .header__container-weather {
   color: #fff;
 }
+
 .header__container-weather:hover {
   color: #fff;
 }
+
 .header__container-search--icon {
   font-size: 3rem;
   color: #aaa;
 }
+
 .header__container-bars {
   color: #e7e7e7;
   font-size: 2.5rem;
 }
+
 .header__container-navbar {
   display: flex;
 }
+
 .header__container-navbar--form {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+.list__container-font {
+  margin-left: 1.8rem;
+}
+
+.list__container-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.list__container-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.list__container-title a:hover {
+  text-decoration: underline;
+}
+
+.list__container-text {
+  font-size: 1.4rem;
+  color: #333;
+}
+
 .header__container-navbar--form input {
   border: 1px solid #e7e7e7;
   width: 5rem;
 }
+
 .header__container-list {
   display: flex;
   justify-content: start;
@@ -61,6 +93,7 @@ body {
   list-style: none;
   padding-left: 0;
 }
+
 .header__container-list li {
   margin: 0.7rem 0;
   padding: 0.1rem 1.5rem;
@@ -68,6 +101,7 @@ body {
   font-weight: bold;
   border-right: 1px solid #e7e7e7;
 }
+
 .header__container-list li a {
   text-decoration: none;
   color: #000;
@@ -104,6 +138,7 @@ body {
     display: none;
   }
 }
+
 @media (max-width: 992px) {
   .header__container {
     height: 5rem;
@@ -122,15 +157,18 @@ body {
     width: 17rem;
   }
 }
+
 .magazine {
   padding: 0 3rem;
   background-color: #fff;
 }
+
 .magazine__icon {
   height: 2.8rem;
   width: 2.9rem;
   background-color: #f72210;
 }
+
 .magazine__text {
   padding-top: 1rem;
   padding-left: 1rem;
@@ -138,12 +176,14 @@ body {
   color: #333;
   font-weight: 700;
 }
+
 .magazine__contain {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
   position: relative;
 }
+
 .magazine__catagory {
   background-color: #f72210;
   padding: 0.3rem 0.8rem;
@@ -152,16 +192,19 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .magazine__catagory2 {
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
 }
+
 .magazine__name {
   color: #f72210;
   font-size: 1.5rem;
   font-weight: 700;
   margin-left: 1rem;
 }
+
 .magazine__link {
   margin-top: 0.7rem;
   font-size: 1.8rem;
@@ -169,6 +212,7 @@ body {
   text-decoration: none;
   font-weight: 700;
 }
+
 .magazine__link:hover {
   text-decoration: underline;
   color: #000;
@@ -177,6 +221,7 @@ body {
 .img__container {
   position: relative;
 }
+
 .img__container-date {
   position: absolute;
   left: 0;
@@ -206,9 +251,11 @@ body {
   padding: 1rem 7rem;
   background-color: #f4f5f6;
 }
+
 .subscribe__img {
   width: 65%;
 }
+
 .subscribe__btn {
   padding: 0.5rem 1rem;
   background-color: #f72210;
@@ -219,11 +266,13 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
 }
+
 .subscribe__title,
 .subscribe__text {
   width: 100%;
   padding: 0 1rem;
 }
+
 .subscribe__input {
   width: 15rem;
   margin-left: 1.5rem;
@@ -234,6 +283,7 @@ body {
   border: 1px solid #e7e7e7;
   border-radius: 3px;
 }
+
 .newsletter__img {
   height: 34rem;
   width: 100%;
@@ -246,37 +296,46 @@ body {
   padding: 2rem;
   background-color: #fff;
 }
+
 .footer__logo {
   position: relative;
 }
+
 .footer__logo-icon {
   width: 35%;
 }
+
 .footer__icons > * {
   font-size: 3rem;
   color: #777;
 }
+
 .footer__copy {
   position: absolute;
   left: 15rem;
   bottom: 0;
 }
+
 .footer__list2 {
   --bs-gutter-x: 0;
 }
+
 .footer__list {
   padding-left: 1rem;
 }
+
 .footer__list li {
   margin: 0 0.5rem;
   font-size: 1.4rem;
   color: #333;
 }
+
 .footer__list li > * {
   text-decoration: none;
   font-size: inherit;
   color: #777;
 }
+
 .footer__list li > *:hover {
   text-decoration: underline;
 }
@@ -293,19 +352,23 @@ body {
 .page__links {
   border-bottom: 1rem solid #e7e7e7;
 }
+
 .page__links-list {
   list-style: none;
 }
+
 .page__links-list li {
   padding-top: 1rem;
   margin: 0 2.5rem;
   font-size: 1.8rem;
   font-weight: bold;
 }
+
 .page__links-list li a {
   color: #777;
   text-decoration: none;
 }
+
 .page__links-list li a:hover {
   color: #f72210;
 }
@@ -313,43 +376,54 @@ body {
 .card__container {
   padding-left: 3rem;
 }
+
 .card__container-img {
   width: 100%;
 }
+
 .card__container-img2 {
   width: 100%;
 }
+
 .card__container-title {
   width: 90%;
   font-size: 1.9rem;
   font-weight: 700;
 }
+
 .card__container-title a {
   text-decoration: none;
   color: #000;
 }
+
 .card__container-title a:hover {
   text-decoration: underline;
 }
+
 .card__container-title2 {
   width: 100%;
 }
+
 .card__container-text {
   width: 90%;
   font-size: 1.5rem;
   color: #333;
 }
+
 .card__container-text2 {
   width: 100%;
 }
+
 .card__container-group {
   position: relative;
 }
+
 .card__container-head {
   font-size: 1.9rem;
   font-weight: 700;
   color: #aaa;
 }
+
 .card__container-catagory {
   position: absolute;
   left: 0;
@@ -358,14 +432,17 @@ body {
   height: 3rem;
   background-color: rgba(255, 255, 255, 0.9);
 }
+
 .card__container-catagory span {
   color: #f72210;
   font-size: 1.6rem;
   font-weight: 700;
 }
+
 .card__container-catagory2 {
   width: 16rem;
 }
+
 .card__container-catagory2 span {
   color: #3581f4;
 }
@@ -374,6 +451,7 @@ body {
   padding: 0 1.9rem;
   position: relative;
 }
+
 .debate-circle {
   position: absolute;
   top: 50%;
@@ -384,6 +462,7 @@ body {
   border-radius: 100%;
   background-color: #000;
 }
+
 .debate-circle--vs {
   position: absolute;
   top: 50%;
@@ -393,10 +472,12 @@ body {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
 }
+
 .debate__container {
   border-top: 0.4rem solid #e7e7e7;
   border-bottom: 0.4rem solid #e7e7e7;
 }
+
 .debate__container-hr {
   margin: 2rem 0;
   height: 0.5rem;
@@ -404,23 +485,28 @@ body {
   border-top: 0.1rem solid #e7e7e7;
   border-bottom: 0.1rem solid #e7e7e7;
 }
+
 .debate__container-img {
   width: 6rem;
   margin-right: 2rem;
 }
+
 .debate__container-name,
 .debate__container-link {
   font-size: 1.5rem;
   text-decoration: none;
 }
+
 .debate__container-link:hover {
   text-decoration: underline;
   color: #000;
 }
+
 .debate__container-link {
   color: #000;
   font-weight: 700;
 }
+
 .debate__container-name,
 .debate__container-name:hover {
   color: #333;
@@ -451,6 +537,7 @@ body {
     padding-right: 1.3rem;
   }
 }
+
 @media (max-width: 768px) {
   .first__row {
     padding-right: 2rem;
@@ -460,9 +547,11 @@ body {
     padding-left: 2rem;
   }
 }
+
 .myTurn__card-img {
   width: 88%;
 }
+
 .myTurn__card-title {
   width: 88%;
   font-size: 1.5rem;
@@ -480,28 +569,11 @@ body {
     display: none;
   }
 }
+
 @media (min-width: 769px) {
   .pl-turn {
     display: none;
   }
-}
-.list__container-font {
-  margin-left: 1.8rem;
-}
-.list__container-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-.list__container-title a {
-  color: #000;
-  text-decoration: none;
-}
-.list__container-title a:hover {
-  text-decoration: underline;
-}
-.list__container-text {
-  font-size: 1.4rem;
-  color: #333;
 }
 
 .row {
