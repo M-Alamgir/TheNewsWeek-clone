@@ -1,5 +1,8 @@
 # TheNewsWeek-clone
 
+This Project is part of Microverse program built with HTML5, CCS3 and bootstrap.
+The website is fully responsive with the help of three media query breakpoints (the default being the smaller viewport), namely: < 768px, >= 768px, >= 1024px, >= 1280px.
+
 ![screenshot of TheNewsWeek](./images/image.png)
 
 
@@ -30,17 +33,15 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to [The Next Web](https://thenextweb.com/) for their awesome landing page.
+- Hat tip to [TheNewsWeek](https://www.newsweek.com/) for their awesome landing page.
 - Hat tip to Microverse for their `README` template.
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

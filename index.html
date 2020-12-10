@@ -27,14 +27,15 @@
                     <span class="mx-4 header__container-weather">Tuesday, Dec 8, 2020</span>
                 </div>
             </div>
-            <div class="text-uppercase d-flex justify-content-between align-items-center">
-                <a class="mx-2 text-decoration-none header__container-weather font-weight-bold" href="#">login</a>
-                <button type="button" class="mx-4 custom-hb">SUBSCRIBE</button>
-                <i class="header__container-bars fas fa-bars mx-2"></i>
+            <div class="text-uppercase d-flex justify-content-between align-items-center mx-2">
+                <a class="mx-3 text-decoration-none header__container-weather font-weight-bold hide__logo2" href="#">login</a>
+                <span class="hide__icon3 mx-3"><i class="header__container-bars fas fa-user-alt"></i></span>
+                <button type="button" class="mx-3 custom-hb">SUBSCRIBE</button>
+                <span class="hide__icon2 mx-3"><i class="header__container-bars fas fa-bars"></i></span>
             </div>
         </div>
-        <nav class="header__container-navbar mt-3 header__container-hide--md white-color">
-            <ul class="header__container-list">
+        <nav class="d-flex mt-3 header__container-hide--md white-color">
+            <ul class="header__container-list d-flex justify-content-start align-items-center">
                 <li><a href="#">U.S.</a></li>
                 <li><a href="#">World</a></li>
                 <li><a href="#">Business</a></li>
@@ -47,8 +48,8 @@
                 <li><a href="#">Vantage</a></li>
                 <li><a href="#">Weather</a></li>
             </ul>
-            <form class="header__container-navbar--form">
-                <input type="text" class="form-control px-3 py-3 border-none" placeholder="Search">
+            <form class="header__container-navbar--form d-flex justify-content-around align-items-center">
+                <input type="text" class="form-control border-0 px-3 py-3 border-none" placeholder="Search">
                 <button type="button" class="btn header__container-btn shadow-none form-control"><i
                         class="header__container-search--icon fas fa-search"></i></button>
             </form>
@@ -73,6 +74,32 @@
         <div class="white-color">
             <div class="row">
                 <div class="col-lg-3 col-md-6 card__container mt-4 first__row">
+                    <div class="top__story-t">
+                        <h2 class="card__container-head mb-3">TOP STORY</h2>
+                        <div class="card border-0">
+                            <div class="card-img-top card__container-group">
+                                <img class="card__container-img2" src="./images/biden.webp" alt="biden">
+                                <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                    <span>POLITICS</span></div>
+                            </div>
+                            <p class="card-title card__container-title card__container-title2 mt-2"><a href="#">Joe Biden's
+                                    Billion-Dollar Campaign Spent $13 for Every Vote</a></p>
+                            <p class="card-text card__container-text card__container-text2">The Democrat's presidential
+                                campaign became the first in U.S. to raise one billion dollars from donors.</p>
+                        </div>
+    
+                        <hr class="hr-devider hr-devider3">
+                        <div class="d-flex justify-content-start list__container">
+                            <div><img src="./images/donald-trump.jpg" alt="trump"></div>
+                            <div class="list__container-font float-left">
+                                <p class="list__container-title"><a href="#">Trump's Ambiguous COVID Vaccine Order Aims to
+                                        Give Americans First Access</a></p>
+                                <p class="list__container-text">According to the White House, the order directs the
+                                    Secretary of Health and Human Services.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <h2 class="card__container-head mb-3">FEATURED STORIES</h2>
                     <div class="card border-0 mb-4">
                         <div class="card-img-top card__container-group">
@@ -149,27 +176,29 @@
 
 
                 <div class="col-lg-5 col-md-6 mt-4 padding__left padding__right middle__row">
-                    <h2 class="card__container-head mb-3">TOP STORY</h2>
-                    <div class="card border-0">
-                        <div class="card-img-top card__container-group">
-                            <img class="card__container-img2" src="./images/biden.webp" alt="biden">
-                            <div class="card__container-catagory d-flex justify-content-center align-items-center">
-                                <span>POLITICS</span></div>
+                    <div class="top__story-b">
+                        <h2 class="card__container-head mb-3">TOP STORY</h2>
+                        <div class="card border-0">
+                            <div class="card-img-top card__container-group">
+                                <img class="card__container-img2" src="./images/biden.webp" alt="biden">
+                                <div class="card__container-catagory d-flex justify-content-center align-items-center">
+                                    <span>POLITICS</span></div>
+                            </div>
+                            <p class="card-title card__container-title card__container-title2 mt-2"><a href="#">Joe Biden's
+                                    Billion-Dollar Campaign Spent $13 for Every Vote</a></p>
+                            <p class="card-text card__container-text card__container-text2">The Democrat's presidential
+                                campaign became the first in U.S. to raise one billion dollars from donors.</p>
                         </div>
-                        <p class="card-title card__container-title card__container-title2 mt-2"><a href="#">Joe Biden's
-                                Billion-Dollar Campaign Spent $13 for Every Vote</a></p>
-                        <p class="card-text card__container-text card__container-text2">The Democrat's presidential
-                            campaign became the first in U.S. to raise one billion dollars from donors.</p>
-                    </div>
-
-                    <hr class="hr-devider hr-devider3">
-                    <div class="d-flex justify-content-start list__container">
-                        <div><img src="./images/donald-trump.jpg" alt="trump"></div>
-                        <div class="list__container-font float-left">
-                            <p class="list__container-title"><a href="#">Trump's Ambiguous COVID Vaccine Order Aims to
-                                    Give Americans First Access</a></p>
-                            <p class="list__container-text">According to the White House, the order directs the
-                                Secretary of Health and Human Services.</p>
+    
+                        <hr class="hr-devider hr-devider3">
+                        <div class="d-flex justify-content-start list__container">
+                            <div><img src="./images/donald-trump.jpg" alt="trump"></div>
+                            <div class="list__container-font float-left">
+                                <p class="list__container-title"><a href="#">Trump's Ambiguous COVID Vaccine Order Aims to
+                                        Give Americans First Access</a></p>
+                                <p class="list__container-text">According to the White House, the order directs the
+                                    Secretary of Health and Human Services.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -500,6 +529,20 @@
                                 Design and Architecture Programs in 2020?</a></p>
                         <p class="card-text card__container-text mx-4 mb-4">The best Art, Design and Architecture
                             schools use a recipe consisting of a blend of ingredients. Read more here.</p>
+                    </div>
+                    <div class="card margin__5 color__grey">
+                        <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                            <div class="d-flex align-items-center justify-content-center heading__2">
+                                <div class="magazine__icon">
+                                    <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="N">
+                                </div>
+                                <p class="card-title list__container-title subscribe__title">Start your day with our top 5 articles</p>
+                            </div>
+                            <form class="form-group mt-2">
+                                <input type="text" class="form-control input__2" placeholder="Email Address">
+                                <button type="button" class="btn__1">FREE SIGN UP</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1029,13 +1072,14 @@
             <div class="magazine pt-5">
                 <hr class="hr-devider mb-4">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-lg-8 col-12">
                         <p class="heading">SUBSCRIBE</p>
-                        <div class="subscribe d-flex justify-content-center align-items-center">
-                            <div>
+                        <div class="subscribe d-flex justify-content-center align-items-center subscribe__column">
+                            <div class="position-relative">
                                 <img class="subscribe__img" src="./images/pills.webp" alt="pills">
+                                <img class="subscribe__img subscribe__img-over" src="./images/brain.jpg" alt="pills">
                             </div>
-                            <div>
+                            <div class="subscribe-margin subscribe-content">
                                 <p class="list__container-title subscribe__title mx-0">In-depth Stories You Don't See
                                     Elsewhere About Topics You Want to Read!</p>
                                 <p class="list__container-text subscribe__text mx-0">All Access + Weekly Delivery.
@@ -1044,17 +1088,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-12 mt-2">
                         <p class="heading">NEWSLETTER</p>
-                        <div class="newsletter d-flex justify-content-between align-items-center">
+                        <div class="newsletter d-flex justify-content-between align-items-center newsletter-direction">
                             <div class="newsletter__img">
                             </div>
                             <div>
-                                <p class="list__container-title subscribe__title mx-0">The Starting 5</p>
-                                <p class="list__container-text subscribe__text mx-0">See why nearly a quarter of a
-                                    million subscribers begin their day with the Starting 5.</p>
-                                <input type="text" class="form-control subscribe__input" placeholder="Email Address">
-                                <button type="button" class="subscribe__btn mx-4">FREE SIGN UP</button>
+                                <div class="newsletter-1">
+                                    <p class="list__container-title subscribe__title mx-0">The Starting 5</p>
+                                    <p class="list__container-text subscribe__text mx-0">See why nearly a quarter of a
+                                        million subscribers begin their day with the Starting 5.</p>
+                                </div>
+                                <div class="newsletter-3">
+                                    <input type="text" class="form-control subscribe__input" placeholder="Email Address">
+                                    <button type="button" class="subscribe__btn mx-4">FREE SIGN UP</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1063,47 +1111,59 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="row">
-            <div class="col-12">
-                <div class="footer d-flex justify-content-between align-items-center">
-                    <div class="footer__logo">
-                        <img class="footer__logo-icon" src="./images/logo.png" alt="logo">
-                        <span class="footer__copy">&copy; 2020 NEWSWEEK DIGITAL LLC</span>
-                    </div>
-                    <div class="footer__icons">
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-google-plus-square"></i>
-                        <i class="fab fa-facebook-square"></i>
-                    </div>
+    <footer class="bg-white">
+        <div class="take-out">
+            <div class="footer d-flex justify-content-between align-items-center">
+                <div class="footer__logo">
+                    <img class="footer__logo-icon" src="./images/logo.png" alt="logo">
+                    <span class="footer__copy">&copy; 2020 NEWSWEEK DIGITAL LLC</span>
                 </div>
-                <hr class="hr-devider">
-                <div class="pt-4 pb-5 bg-white">
-                    <ul class="footer__list list-unstyled d-flex justify-content-start align-items-center">
-                        <li><a href="#">Editions:</a></li>
-                        <li><a href="#">U.S. Edition</a></li>
-                        <li><a href="#">日本</a></li>
-                        <li><a href="#">Pakistan</a></li>
-                        <li><a href="#">Polska</a></li>
-                        <li><a href="#">România</a></li>
-                    </ul>
+                <div class="footer__icons">
+                    <i class="fab fa-twitter-square px-2"></i>
+                    <i class="fab fa-google-plus-square px-2"></i>
+                    <i class="fab fa-facebook-square px-2"></i>
+                    <i class="fab fa-linkedin-in px-2"></i>
+                    <i class="fab fa-google px-2"></i>
                 </div>
             </div>
         </div>
-        <ul
-            class="row footer__list footer__list2 list-unstyled d-flex bg-white justify-content-start align-items-center">
-            <li class="col"><a href="#">About Us</a></li>
-            <li class="col"><a href="#">Corrections</a></li>
-            <li class="col"><a href="#">Contact Us</a></li>
-            <li class="col"><a href="#">Editorial Guidelines</a></li>
-            <li class="col"><a href="#">Advertise</a></li>
-            <li class="col"><a href="#">Copyright</a></li>
-            <li class="col"><a href="#">Terms & Conditions</a></li>
-            <li class="col"><a href="#">Privacy Policy</a></li>
-            <li class="col"><a href="#">Cookie Policy</a></li>
-            <li class="col"><a href="#">Terms of Sale</a></li>
-            <li class="col"><a href="#">Archive</a></li>
-            <li class="col"><a href="#">Announcements</a></li>
+        <div class="take-in">
+            <div class="d-flex flex-column mx-3 pt-4">
+                <div class="d-flex flex-column mb-2">
+                    <img class="footer__logo-icon--1 mb-2" src="./images/logo.png" alt="logo">
+                    <span>&copy; 2020 NEWSWEEK DIGITAL LLC</span>
+                </div>
+                <div class="footer__icons">
+                    <i class="fab fa-twitter-square pl-2"></i>
+                    <i class="fab fa-google-plus-square px-2"></i>
+                    <i class="fab fa-facebook-square px-2"></i>
+                    <i class="fab fa-linkedin-in px-2"></i>
+                    <i class="fab fa-google px-2"></i>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-devider">
+        <ul class="list-unstyled custom-ul">
+            <li class="custom__list"><a class="custom__list-a" href="#">Editions:</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">U.S. Edition</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">日本</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Pakistan</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Polska</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">România</a></li>
+        </ul>
+        <ul class="list-unstyled custom-ul pb-2">
+            <li class="custom__list"><a class="custom__list-a" href="#">About Us</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Corrections</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Contact Us</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Editorial Guidelines</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Advertise</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Copyright</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Terms & Conditions</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Privacy Policy</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Cookie Policy</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Terms of Sale</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Archive</a></li>
+            <li class="custom__list"><a class="custom__list-a" href="#">Announcements</a></li>
         </ul>
     </footer>
 </body>
