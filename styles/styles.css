@@ -154,11 +154,21 @@ body {
   .hide__icon2 {
     display: block;
   }
+
+  .sponsor-md {
+    padding: 0 14rem;
+  }
 }
 
 @media (min-width: 992px) {
   .hide__icon2 {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .sponsor-md {
+    padding: 0 7rem;
   }
 }
 
@@ -169,6 +179,10 @@ body {
 
   .hide__icon3 {
     display: block;
+  }
+
+  .sponsor-md {
+    padding: 0;
   }
 }
 
