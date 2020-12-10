@@ -1,0 +1,178 @@
+.card__container {
+  padding-left: 3rem;
+
+  &-img {
+    width: 100%;
+  }
+
+  &-img2 {
+    width: 100%;
+  }
+
+  &-title {
+    width: 90%;
+    font-size: 1.9rem;
+    font-weight: 700;
+
+    a {
+      text-decoration: none;
+      color: $color-black;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &-title2 {
+    width: 100%;
+  }
+
+  &-text {
+    width: 90%;
+    font-size: 1.5rem;
+    color: $color-grey-dark;
+  }
+
+  &-text2 {
+    width: 100%;
+  }
+
+  &-group {
+    position: relative;
+  }
+
+  &-head {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: $color-grey-light;
+  }
+
+  &-catagory {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 8rem;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    span {
+      color: $header-red;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+  }
+
+  &-catagory2 {
+    width: 16rem;
+
+    span {
+      color: $color-blue;
+    }
+  }
+}
+
+.debate {
+  padding: 0 1.9rem;
+  position: relative;
+
+  &-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    background-color: $color-black;
+
+    &--vs {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+
+  &__container {
+    border-top: 0.4rem solid $color-grey-lighter;
+    border-bottom: 0.4rem solid $color-grey-lighter;
+
+    &-hr {
+      margin: 2rem 0;
+      height: 0.5rem;
+      width: 100%;
+      border-top: 0.1rem solid $color-grey-lighter;
+      border-bottom: 0.1rem solid $color-grey-lighter;
+    }
+
+    &-img {
+      width: 6rem;
+      margin-right: 2rem;
+    }
+
+    &-name,
+    &-link {
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    &-link {
+      color: $color-black;
+      font-weight: 700;
+    }
+
+    &-link:hover {
+      text-decoration: underline;
+      color: $color-black;
+    }
+
+    &-name,
+    &-name:hover {
+      color: $color-grey-dark;
+    }
+  }
+}
+
+.white-color {
+  background-color: white;
+}
+
+.margin__3 {
+  margin: 5rem 2.2rem;
+}
+
+.padding__left {
+  padding-left: 1.8rem;
+}
+
+@media (max-width: 992px) {
+  .card__container {
+    padding-left: 2rem;
+  }
+
+  .padding__left {
+    padding-left: 0.55rem;
+  }
+
+  .padding__right {
+    padding-right: 1.3rem;
+  }
+
+  .margin__3 {
+    // margin: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .first__row {
+    padding-right: 2rem;
+  }
+
+  .middle__row {
+    padding-left: 2rem;
+  }
+}

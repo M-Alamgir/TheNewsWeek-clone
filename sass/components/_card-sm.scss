@@ -1,0 +1,31 @@
+.myTurn {
+  &__card {
+    &-img {
+      width: 88%;
+    }
+
+    &-title {
+      width: 88%;
+      font-size: 1.5rem;
+      color: $color-grey;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pl-turn {
+    padding-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .take-out {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .pl-turn {
+    display: none;
+  }
+}
